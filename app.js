@@ -39,4 +39,4 @@ ModuleRoutes(app);
 CourseRoutes(app);
 Lab5(app);
 Hello(app);
-app.listen(4000);
+app.listen(process.env.PORT || 4000);
